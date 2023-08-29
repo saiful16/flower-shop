@@ -27,6 +27,11 @@ body {
     font-weight: 400;
 }
 
+span {
+    color: #E55473;
+
+}
+
 /* header section styles */
 header {
     display: flex;
@@ -94,6 +99,7 @@ header {
     font-weight: 700;
     text-decoration-line: underline;
 }
+
 /* more shop section css */
 .more-shop-feature {
     display: flex;
@@ -105,8 +111,98 @@ header {
     max-height: 320px;
 }
 
-.more-shop-feature-description, .more-shop-feature-image{
+.more-shop-feature-description,
+.more-shop-feature-image {
     text-align: center;
     align-items: center;
 }
 
+/* sale section css */
+.sale-section {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+    max-width: 1922px;
+    max-height: 620px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#sign-up-btn {
+    padding: 20px 43px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sale-image {
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-left: 180px;
+}
+
+/* Social css */
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 128px;
+    margin-top: 48px;
+}
+
+.form-container {
+    background-image: url('/images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 0 120px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 120px;
+
+
+}
+
+.form-container>input[type=(email)] {
+    padding-left: 180px;
+}
+
+#email {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: 0;
+}
+
+/* footer */
+footer {
+    background: #111010;
+}
+
+footer>h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.copy-rights {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+   padding-bottom: 128px;
+}
